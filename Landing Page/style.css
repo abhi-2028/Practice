@@ -164,7 +164,9 @@ li a{
 .action-section{
     height: 400px;
     padding: 0 300px;
-    margin: 200px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .action{
@@ -174,6 +176,7 @@ li a{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    width: 100%;
 }
 
 .action-text{
@@ -205,4 +208,18 @@ li a{
     cursor: pointer;
     font-size: 38px;
     fontweight: 600;
+}
+
+
+.footer{
+    background-color: #1F2937;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text{
+    color: #E5E7EB;
+    font-size: 30px;
 }
